@@ -1,5 +1,5 @@
 #class import
-from CheckingAccount import CheckingAccount
+from Submitted.CheckingAccount import CheckingAccount
 
 #create object
 account1 = CheckingAccount("Jane Doe", "1234 Sesame St", 5678, 9098.76)
