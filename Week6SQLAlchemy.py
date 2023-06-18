@@ -1,3 +1,8 @@
+from sqlalchemy import create_engine
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import Column, Integer, String
+from sqlalchemy.orm import sessionmaker
+
 #superclass
 class Order:
     def __init__(self, tax, discount, total, item_qty):
